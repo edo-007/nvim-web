@@ -111,7 +111,7 @@ return {
         -- configure emmet language server
         lspconfig["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+          filetypes = { "html", "php", "css" },
         })
       end,
       ["lua_ls"] = function()
@@ -123,6 +123,7 @@ return {
               -- make the language server recognize "vim" global
               diagnostics = {
                 globals = { "vim" },
+                disable = {"missing-fields"},
               },
               completion = {
                 callSnippet = "Replace",
