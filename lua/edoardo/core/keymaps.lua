@@ -1,7 +1,7 @@
 vim.keymap.set('n', '<leader>h', ':noh<CR>', { noremap = true, silent = true })
 
 -- esc from search
-vim.keymap.set({"i","v","s"}, "jk","<esc>",{noremap=true})
+-- vim.keymap.set({"i","v","s"}, "jk","<esc>",{noremap=true})
 
 vim.keymap.set("n", "<Tab>", ":bn<CR>", { noremap = true, silent = true, desc = "Buffer successivo" })
 vim.keymap.set("n", "<S-Tab>", ":bp<CR>", { noremap = true, silent = true, desc = "Buffer precedente" })

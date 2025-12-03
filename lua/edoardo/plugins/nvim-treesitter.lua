@@ -10,7 +10,7 @@ return {
       return
     end
     configs.setup {
-      ensure_installed = { "php", "html", "javascript", "lua", "css" },
+      ensure_installed = { "php", "html", "javascript", "lua", "css", "latex" },
       sync_install = false,
       auto_install = true,
       highlight = { 

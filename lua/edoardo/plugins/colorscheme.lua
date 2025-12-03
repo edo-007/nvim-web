@@ -1,9 +1,10 @@
-return{ 
-	"bluz71/vim-nightfly-guicolors",
-	priority = 1000,
-	config = function()
+return{
+ "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
 		-- load the colorcheme
-		vim.cmd([[colorscheme nightfly]])
-	end, 
+		vim.cmd([[colorscheme cyberdream]])
+	end,
 }
 
