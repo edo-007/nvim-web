@@ -1,10 +1,10 @@
-return{
- "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 1000,
+return {
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,    -- Caricalo all'avvio
+    priority = 1000, -- Assicurati che venga caricato prima degli altri
     config = function()
-		-- load the colorcheme
-		vim.cmd([[colorscheme cyberdream]])
-	end,
+      vim.cmd("colorscheme kanagawa")
+    end,
+  },
 }
-
