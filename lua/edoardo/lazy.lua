@@ -22,4 +22,4 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
-require("lazy").setup({{import = "edoardo.plugins"}, { import = "edoardo.plugins.lsp" }})
+require("lazy").setup({import = "edoardo.plugins"})
