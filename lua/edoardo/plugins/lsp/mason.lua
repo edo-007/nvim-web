@@ -28,18 +28,15 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         "lua_ls",
-        "pyright",
-        "bashls",
+        "basedpyright",
+        "ruff", -- python linter + formatter
       },
     })
 
     mason_tool_installer.setup({
       ensure_installed = {
         "stylua", -- lua formatter
-        "isort", -- python formatter
-        "black", -- python formatter
-        "pylint",
-        "shellcheck", -- bash linter (used by bashls)
+        "shellcheck", -- bash linter
         "shfmt", -- bash formatter
       },
     })
