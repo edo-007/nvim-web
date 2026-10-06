@@ -38,8 +38,8 @@ function ShowTreselectionHelp()
     "grm  │ Riduci selezione",
     "af     @function.outer",
     "if     @function.inner",
-    "at     @tag.outer",
-    "it     @tag.inner",
+    "ac     @class.outer",
+    "ic     @class.inner",
   })
   local width = 30
   local height = 10

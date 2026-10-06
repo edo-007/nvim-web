@@ -10,7 +10,7 @@ return {
       return
     end
     configs.setup {
-      ensure_installed = { "php", "html", "javascript", "lua", "css", "latex" },
+      ensure_installed = { "python", "bash", "lua", "vim", "vimdoc", "markdown", "markdown_inline", "toml", "yaml", "json" },
       sync_install = false,
       auto_install = true,
       highlight = { 
@@ -25,8 +25,8 @@ return {
           keymaps = {
             ["af"] = "@function.outer",
             ["if"] = "@function.inner",
-            ["at"] = "@tag.outer",
-            ["it"] = "@tag.inner",
+            ["ac"] = "@class.outer",
+            ["ic"] = "@class.inner",
           },
         },
       },
